@@ -14,10 +14,10 @@
         android:theme="@style/Theme.Kotlinapppedidosya"
         tools:targetApi="31">
         <activity
-            android:name=".ui.RegisterDialogFragment"
+            android:name=".ui.activities.ProductListActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.LoginActivity"
+            android:name=".ui.activities.LoginActivity"
             android:exported="true"
             android:theme="@style/Theme.Kotlinapppedidosya">
             <intent-filter>
