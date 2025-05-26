@@ -1,8 +1,7 @@
-package com.example.kotlin_app_pedidosya.domain
+package com.example.kotlin_app_pedidosya.ui.utils
 
 import android.text.Editable
 import android.text.TextWatcher
-import android.widget.EditText
 
 abstract class TextChangedListener<T>(private val target: T) : TextWatcher {
 
